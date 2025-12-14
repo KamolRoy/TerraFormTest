@@ -4,6 +4,6 @@ resource "aws_vpc" "mtc_vpc" {
     enable_dns_support = true
 
 tags = {
-        name = "dev"
+        Name = "dev"
     }
 }
